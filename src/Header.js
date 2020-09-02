@@ -22,12 +22,12 @@ function Header() {
         />
         <div className='header_input'>
           <SearchIcon />
-          <input type='text' />
+          <input placeholder='Search...' type='text' />
         </div>
       </div>
 
       <div className='header_center'>
-        <div className='header_option'>
+        <div className='header_option header_option--active'>
           <HomeIcon fontSize='large' />
         </div>
         <div className='header_option'>
